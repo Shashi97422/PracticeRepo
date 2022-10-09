@@ -13,7 +13,8 @@ public class Launch {
 public void test() {
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
-	System.out.println("hello");
+	
 	driver.get("https://www.amazon.in/");
+	System.out.println("by by...");
 }
 }
